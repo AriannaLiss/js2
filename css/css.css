@@ -2,7 +2,7 @@
 .grid{
     display: grid;
     grid-template-columns: 100px 700px;
-    grid-template-rows: 200px auto 200px;
+    grid-template-rows: 200px auto auto;
     width: 801px;
     margin: 0 auto;
     text-align: center;
@@ -42,4 +42,25 @@ nav{
 
 header,footer{
     grid-column: 1/3;
+}
+
+footer{
+    display: block !important;
+}
+
+table{
+    margin:0 auto;
+}
+
+table td:nth-child(3){
+    border: 1px solid grey;
+}
+
+table td:nth-child(2){
+    text-align: left;
+}
+
+table > caption{
+    font-size: 2em;
+    padding: 1em;
 }
