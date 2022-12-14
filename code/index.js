@@ -131,7 +131,7 @@ for(let i = 4; i >= 0; i--){
     }
     document.write("<br/>");
 }
-document.write("</div></div>"+
+document.write("</div></div><div id='hw3'></div>"+
     "</section>" +
     "<footer>Calculated by Arianna Liss</footer>" +
     "</div>"
