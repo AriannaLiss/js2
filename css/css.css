@@ -19,6 +19,10 @@
     align-items: center;
 }
 
+main{
+    display: block!important;
+}
+
 section{
     display:block !important;
 }
@@ -63,4 +67,22 @@ table td:nth-child(2){
 table > caption{
     font-size: 2em;
     padding: 1em;
+}
+
+.object__main{
+    display: flex;
+    margin: 2rem;
+}
+
+.object__text {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.object__text > div{
+    margin-bottom: 1rem;
+}
+
+.object__applications{
+    margin-left: 1rem;
 }

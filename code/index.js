@@ -34,6 +34,11 @@ if (adult){
     document.write("<nav>Here could be some difficult calculation.</nav>");
     }
 
+
+document.write("<main><section id='object'></section>");
+
+
+
 var x = 6, y = 14, z = 4;
 
 document.write("<section><h2>Initial meanings: x = " + x + " y = " + y + " z = " + z + "</h2><div class='examples'>");
@@ -132,7 +137,7 @@ for(let i = 4; i >= 0; i--){
     document.write("<br/>");
 }
 document.write("</div></div><div id='hw3'></div>"+
-    "</section>" +
+    "</section></main>" +
     "<footer>Calculated by Arianna Liss</footer>" +
     "</div>"
     );
